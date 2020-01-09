@@ -1,0 +1,119 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{polski}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\title{Projekt}
+\author{Marian Buzak}
+\date{09.01.2020}
+
+
+\begin{document}
+\maketitle 
+\pagestyle{fancy}
+\fancyhead[L]{}
+\begin{center}
+Czyli zestawienie losowych informacji
+\includegraphics[angle=15,width=250px]{404.png}
+\end{center}
+\newpage
+\tableofcontents
+\listoffigures 
+\listoftables 
+\newpage
+\section{Trochę tekstu}
+\subsection{Ciekawostki}
+Drozofile żyją 2 tygodnie. \\ Młode płetwale błękitne jedzą 4 kilogramy pożywiena na godzinę. \\ Krety potrafią wykopać 20m tunel pod ziemią w ciągu dnia. \\ Planetę Wenus można zobaczyc 3 godziny przed wschodem słońca.
+\subsection{I tabela do tego}
+\begin{table}[h]
+\caption{Gady Polski}
+\begin{center}
+\begin{tabular}{|c|c|l|}
+\hline Rząd & Rodzina & Gatunek\\ \hline \hline
+żółwie & żółwie błotne & żółw błotny\\
+ &  & żółw ozdobny\\ \hline
+łuskonośne & jaszczurki własciwe & jaszczurka zwinka\\
+ &  & jaszczurka zielona\\
+ &  & jaszczurka żyworodna\\
+ &  & jaszczurka murowa\\ \cline{2-3}
+ & padalcowate & zaskroniec zwyczajny\\
+ & & zaskroniec rybołów\\
+ & & gniewosz plamisty\\
+ & & wąż Eskulapa\\ \cline{2-3}
+ & żmijowate  & żmija zygzakowata\\
+ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{figure}[h]
+\caption{Latech}
+\begin{center}
+\includegraphics[width=150pt]{latex.png}
+\end{center}
+\end{figure}
+
+\section{Jakieś wzory matematyczne}
+\subsection{Zbieżność ciągu}
+\small{
+$$
+\sum_{k=1}^n \frac{k!}{2^k}
+= 0
+$$}
+\subsection{Granica wyrażenia}
+$$
+\lim_{x \to 1}
+\frac{3x^5-x^3-2x}{x^5-x}=
+\frac{5}{2}
+$$
+
+\section{Zależności}
+\subsection{Zagadka}
+\begin{itemize}
+  \item \emph{Było raz tak:}
+  \begin{enumerate}
+    \item Bociana dziobał szpak
+    \item Później była zmiana
+    \item I szpak dziobał bociana
+    \item Później były jeszcze takie 3 zmiany
+  \end{enumerate}
+  \item \textbf{\texttt{Ile razy szpak był dziobany?}}
+\end{itemize}
+\begin{table}[h]
+\caption{Ciąg Fibonacciego}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+5 & 8 & 13\\
+\hline
+\multicolumn{2}{|c|}{21}&44\\
+\hline
+\multirow{2}{80px}{65} &109&174 \\
+\cline{2-3}
+& \multicolumn{2}{|l|}{283}\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\begin{figure}[h]
+\caption{Error}
+\begin{center}
+\includegraphics[width=125pt]{xp.jpg}
+\end{center}
+\end{figure}
+
+\newpage
+\begin{thebibliography}{9}
+\bibitem{lamport94}
+ Leslie Lamport,
+ \emph{\LaTeX: A Document Preparation System}.
+ Addison Wesley, Massachusetts,
+ 2nd Edition,
+ 1994. \\
+ Partl~\cite{pa} przedstawi\l \ldots
+\bibitem{pa} H.~Partl:
+\emph{German \TeX},
+TUGboat Vol.~9,, No.~1 ('88)
+\end{thebibliography}
+\end{document}
